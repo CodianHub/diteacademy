@@ -1,0 +1,130 @@
+export default function sitemap() {
+  return [
+    {
+      url: "https://codianhub.in/",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 1.0,
+    },
+    {
+      url: "https://codianhub.in/courses",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: "https://codianhub.in/courses/data-structures-and-algorithms",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: "https://codianhub.in/courses/full-stack-development",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: "https://codianhub.in/tutorials",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: "https://codianhub.in/dsa-sheet",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: "https://codianhub.in/courses/frontend-development",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: "https://codianhub.in/courses/backend-development",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: "https://codianhub.in/courses/c-language",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: "https://codianhub.in/courses/cpp-oops",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: "https://codianhub.in/courses/javascript",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: "https://codianhub.in/courses/java",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: "https://codianhub.in/courses/python",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: "https://codianhub.in/courses/devops",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: "https://codianhub.in/courses/aws-cloud",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: "https://codianhub.in/core-subjects",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.7,
+    },
+    {
+      url: "https://codianhub.in/about",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.6,
+    },
+    {
+      url: "https://codianhub.in/contact",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.6,
+    },
+    {
+      url: "https://codianhub.in/legal/privacy-policy",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.5,
+    },
+    {
+      url: "https://codianhub.in/legal/refund-policy",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.5,
+    },
+    {
+      url: "https://codianhub.in/legal/terms-of-use",
+      lastModified: new Date().toISOString(),
+      changefreq: "weekly",
+      priority: 0.5,
+    },
+  ];
+}

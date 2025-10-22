@@ -1,0 +1,16 @@
+.social-animate {
+  animation: social-animate both;
+  animation-timeline: view(50% 20%);
+  /* animation-range: entry 30% cover 50vh; */
+}
+
+@keyframes social-animate {
+  0% {
+    transform: scale(0.9) translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
