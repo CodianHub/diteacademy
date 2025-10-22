@@ -1,21 +1,23 @@
-import CoursesClient from "./CoursesClient"
+import CoursesClient from "./CoursesClient";
 
 export const metadata = {
-  title: "Our Courses",
-  description:"Explore CodianHub's structured courses in Data Structures & Algorithms, Full Stack Development, Cloud, DevOps, AI/ML, and Core Programming to crack MNC interviews.",
-  alternates: {canonical: "https://codianhub.in/courses"},
+  title: "Courses | Dite Academy",
+  description:
+    "Explore Dite Academy’s professional computer courses — from Basic & Advanced Computer, Excel, MS Office, and Typing to Coding, DCA, ADCA, CCC, Digital Marketing, and Graphic Designing. Available online and offline.",
+  alternates: { canonical: "https://diteacademy.in/courses" },
 
   openGraph: {
-    title: "Courses at CodianHub | Learn DSA, Full Stack, AI/ML & Cloud",
-    description:"Master coding with CodianHub courses. Learn DSA, Full Stack, Python, Java, Cloud, AI/ML, and DevOps to boost your career.",
-    url: "https://codianhub.in/courses",
-    siteName: "CodianHub",
+    title: "Courses at Dite Academy | Learn Computer Skills & Coding",
+    description:
+      "Join Dite Academy’s online and offline computer courses — Basic Computer, Advanced Computer, Excel, MS Office, DCA, ADCA, CCC, Digital Marketing, and Coding. Learn skills for your career growth.",
+    url: "https://diteacademy.in/courses",
+    siteName: "Dite Academy",
     images: [
       {
-        url: "https://codianhub.in/og-image.png",
+        url: "https://diteacademy.in/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CodianHub Courses Page",
+        alt: "Dite Academy Courses Page",
       },
     ],
     locale: "en_IN",
@@ -24,16 +26,17 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Courses at CodianHub | Learn DSA, Full Stack, AI/ML & Cloud",
-    description:"Browse CodianHub's courses in DSA, Full Stack, Python, Java, Cloud, DevOps & AI/ML. Build skills & crack top MNC interviews.",
-    images: ["https://codianhub.in/og-image.png"],
+    title: "Courses | Dite Academy",
+    description:
+      "Learn from Dite Academy — your offline & online training center for Computer Courses, Coding, Excel, MS Office, DCA, ADCA, CCC, and Digital Marketing.",
+    images: ["https://diteacademy.in/og-image.png"],
   },
 };
 
-export default function page() {
+export default function Page() {
   return (
     <>
       <CoursesClient />
     </>
-  )
+  );
 }

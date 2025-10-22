@@ -1,21 +1,23 @@
-import AboutClient from "./AboutClient"
+import AboutClient from "./AboutClient";
 
 export const metadata = {
-  title: "About Us",
-  description: "CodianHub is built by passionate developers and educators to help students master DSA, Full Stack Development, AI/ML, and Cloud. Our mission is to guide aspiring engineers to crack top MNC interviews and build successful careers.",
-  alternates: {canonical: "https://codianhub.in/about"},
+  title: "About Us | Dite Academy",
+  description:
+    "Dite Academy is a leading institute for computer and digital education. We provide courses in Basic Computer, Advanced Computer, Excel, MS Office, DCA, ADCA, Graphic Designing, and Digital Marketing to help learners build strong career foundations.",
+  alternates: { canonical: "https://diteacademy.in/about" },
 
   openGraph: {
-    title: "About CodianHub | Empowering Future Software Engineers",
-    description: "Discover the story behind CodianHub. Learn how we help students master coding, DSA, and full stack skills to crack MNC interviews and achieve career goals.",
-    url: "https://codianhub.in/about",
-    siteName: "CodianHub",
+    title: "About Dite Academy | Empowering Digital Learners",
+    description:
+      "Discover Dite Academy — your trusted computer education institute. Learn about our mission to make computer and digital education accessible for everyone through professional and academic courses.",
+    url: "https://diteacademy.in/about",
+    siteName: "Dite Academy",
     images: [
       {
-        url: "https://codianhub.in/og-image.png",
+        url: "https://diteacademy.in/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CodianHub About Page",
+        alt: "About Dite Academy",
       },
     ],
     locale: "en_IN",
@@ -24,9 +26,10 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "About CodianHub | Empowering Future Software Engineers",
-    description: "CodianHub helps students master coding skills, DSA, and Full Stack Development with structured courses and practice sheets. Learn our vision and mission.",
-    images: ["https://codianhub.in/og-image.png"],
+    title: "About Dite Academy | Leading Computer Education Institute",
+    description:
+      "Dite Academy offers professional computer courses like DCA, ADCA, Excel, MS Office, Graphic Designing, and Digital Marketing. Learn more about our vision and programs.",
+    images: ["https://diteacademy.in/og-image.png"],
   },
 };
 
@@ -35,5 +38,5 @@ export default function page() {
     <>
       <AboutClient />
     </>
-  )
+  );
 }

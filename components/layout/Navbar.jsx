@@ -32,7 +32,7 @@ const Navbar = () => {
                 {/* name and logo */}
                 <Link href='/' className='flex items-center gap-1'>
                     <Image src="/images/logo.png" width={50} height={50} alt='CodianHub Logo' loading='lazy' />
-                    <h1 className='text-2xl font-bold bg-gradient-to-r from-blue-800 via-purple-600 to-pink-500 bg-clip-text text-transparent'>CodianHub</h1>
+                    <h1 className='text-2xl font-bold bg-gradient-to-r from-blue-800 via-purple-600 to-pink-500 bg-clip-text text-transparent'>Dite Academy</h1>
                 </Link>
 
                 {/* side links hendler */}
@@ -64,7 +64,7 @@ const Navbar = () => {
                         <Link href="/" className="flex items-center gap-2">
                             <Image src="/images/logo.png" width={50} height={50} alt='CodianHub Logo' loading='lazy' />
                             <h1 className='text-3xl font-bold bg-gradient-to-r from-blue-800 via-purple-600 to-pink-500 bg-clip-text text-transparent'>
-                                CodianHub
+                                Dite Academy
                             </h1>
                         </Link>
                     </li>

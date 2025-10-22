@@ -2,56 +2,67 @@ export const faqs = [
   {
     id: 1,
     question: "Which course should I start with if I am a complete beginner?",
-    answer: "If you are completely new, start with C or Python basics to build problem-solving skills, then move to Data Structures & Algorithms (DSA)."
+    answer:
+      "If you are new to computers, start with our Basic Computer Course to understand fundamental concepts like MS Office, Windows, and Internet usage before moving to advanced topics.",
   },
   {
     id: 2,
-    question: "Do I need to learn C++ for DSA or can I use Java/Python?",
-    answer: "You can learn DSA in any language (C++, Java, Python). However, C++ is often preferred because of STL (Standard Template Library) and speed."
+    question: "Do you offer practical training at Dite Academy?",
+    answer:
+      "Yes, all our courses include practical sessions. You’ll work on real projects and tasks using tools like MS Excel, Photoshop, and more to gain hands-on experience.",
   },
   {
     id: 3,
-    question: "What projects will I build in the MERN stack course?",
-    answer: "You’ll build real-world projects like a blog app, e-commerce store, authentication system, and more to strengthen your portfolio."
+    question: "What will I learn in the Digital Marketing course?",
+    answer:
+      "You’ll learn SEO, Social Media Marketing, Google Ads, Content Marketing, and more. By the end, you’ll be able to run and manage digital campaigns professionally.",
   },
   {
     id: 4,
-    question: "Is JavaScript enough to become a full stack developer?",
-    answer: "Yes, with JavaScript you can learn frontend (React), backend (Node.js, Express), and database handling (MongoDB). That’s why MERN is powerful."
+    question: "Does Dite Academy offer Graphic Designing courses?",
+    answer:
+      "Yes, our Graphic Designing course covers Photoshop, Illustrator, Canva, and creative design techniques used in advertising, branding, and social media.",
   },
   {
     id: 5,
-    question: "How will the Python course help me?",
-    answer: "The Python course covers basics to advanced topics, including projects and libraries. It prepares you for web development, automation, and AI/ML in the future."
+    question: "Can I learn programming or coding at Dite Academy?",
+    answer:
+      "Absolutely! We offer beginner-friendly programming courses in C, C++, Python, and Java. You’ll also learn web development and logical problem-solving.",
   },
   {
     id: 6,
-    question: "What is the difference between C and C++ in your courses?",
-    answer: "C teaches you programming fundamentals and memory management, while C++ adds OOP concepts. Both build strong coding foundations for DSA and interviews."
+    question: "Do you provide courses for academic students like BCA or MCA?",
+    answer:
+      "Yes, we cover core academic subjects such as DBMS, Operating Systems, Computer Networks, and OOPs — ideal for BCA, B.Tech, and MCA students.",
   },
   {
     id: 7,
-    question: "Will I get interview preparation with these courses?",
-    answer: "Yes! Our DSA and system design sections include 400+ problems, mock interview questions, and coding challenges for FAANG/MNC preparation."
+    question: "Will I receive a certificate after completing a course?",
+    answer:
+      "Yes ✅ After successfully completing your course at Dite Academy, you will receive a verified certificate to help you boost your career or resume.",
   },
   {
     id: 8,
-    question: "Do your courses include theory or only coding?",
-    answer: "We balance both. Each course has concise theory explanations, followed by hands-on coding, examples, and projects."
+    question: "Do you provide online classes or only offline training?",
+    answer:
+      "We offer both online and offline classes. You can learn from anywhere through live sessions or visit our center for in-person training.",
   },
   {
     id: 9,
-    question: "Can I learn Web Development without DSA?",
-    answer: "Yes, you can directly learn web development. However, DSA improves problem-solving and is very important for cracking job interviews."
+    question: "Is there any typing course available?",
+    answer:
+      "Yes, Dite Academy provides English and Hindi typing courses with speed and accuracy training to prepare you for government and professional exams.",
   },
   {
     id: 10,
-    question: "Do I need prior experience before joining your courses?",
-    answer: "No prior experience is needed. We start from basics and gradually move to advanced topics with step-by-step guidance."
+    question: "Do you help with job placement or career guidance?",
+    answer:
+      "Yes, we guide our students with resume preparation, freelancing tips, and interview skills to help them find job opportunities after course completion.",
   },
   {
     id: 11,
-    question: "Are these courses free?",
-    answer: "Yes ✅ All the courses available on CodianHub are completely free to learn."
-  }
+    question: "Are these courses affordable?",
+    answer:
+      "Yes 💰 Dite Academy provides high-quality computer education at affordable fees — and some short courses are completely free to access online.",
+  },
 ];

@@ -1,23 +1,23 @@
 import ContactClient from "./ContactClient";
 
 export const metadata = {
-  title: "Contact Us",
+  title: "Contact Us | Dite Academy",
   description:
-    "Have questions about our courses or need support? Contact CodianHub today. We're here to help you with DSA, Full Stack, AI/ML, Cloud and more.",
-  alternates: { canonical: "https://codianhub.in/contact" },
+    "Have questions about our computer courses or need guidance? Contact Dite Academy today. We’re here to help you with admissions, course details, and learning support.",
+  alternates: { canonical: "https://diteacademy.in/contact" },
 
   openGraph: {
-    title: "Contact CodianHub | Get in Touch with Us",
+    title: "Contact Dite Academy | Get in Touch with Us",
     description:
-      "Reach out to CodianHub for queries about courses, DSA sheets, or support. We're here to guide you on your coding journey.",
-    url: "https://codianhub.in/contact",
-    siteName: "CodianHub",
+      "Reach out to Dite Academy for queries about computer courses like DCA, ADCA, Excel, MS Office, Graphic Designing, or Digital Marketing. We're here to support your learning journey.",
+    url: "https://diteacademy.in/contact",
+    siteName: "Dite Academy",
     images: [
       {
-        url: "https://codianhub.in/og-image.png",
+        url: "https://diteacademy.in/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CodianHub Contact Page",
+        alt: "Dite Academy Contact Page",
       },
     ],
     locale: "en_IN",
@@ -26,10 +26,10 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Contact CodianHub | Get in Touch with Us",
+    title: "Contact Dite Academy | Get in Touch with Us",
     description:
-      "Connect with CodianHub for queries about DSA, Full Stack, Python, Java, Cloud & AI/ML. We're here to help you succeed.",
-    images: ["https://codianhub.in/og-image.png"],
+      "Connect with Dite Academy for details on computer and digital education programs — including DCA, ADCA, Typing, Excel, and more. We’re happy to help you succeed.",
+    images: ["https://diteacademy.in/og-image.png"],
   },
 };
 

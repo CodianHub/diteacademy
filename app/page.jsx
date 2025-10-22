@@ -5,21 +5,23 @@ import Frequently from "../components/sections/Frequently";
 import CourseAd from "../components/sections/CourseAd";
 
 export const metadata = {
-  title: "CodianHub | Learn Coding, Build Skills & Get Placed",
-  description: "Master coding with CodianHub! Learn DSA, Full Stack Development, AI/ML, Cloud & more. Build skills, crack top MNC interviews & grow your career.",
-  alternates: { canonical: "https://codianhub.in" },
+  title: "Dite Academy | Learn Computer Skills & Grow Your Career",
+  description:
+    "Join Dite Academy to master computer skills — from Basic Computer, Excel, MS Office, and Typing to Coding, DCA, ADCA, CCC, Digital Marketing, and Graphic Designing. Learn, Practice & Succeed.",
+  alternates: { canonical: "https://diteacademy.in" },
 
   openGraph: {
-    title: "CodianHub | Learn Coding, Build Skills & Get Placed",
-    description: "Learn coding with CodianHub – DSA, Full Stack, AI/ML, Cloud. Courses, practice sheets & guidance to crack interviews and get placed in top MNCs.",
-    url: "https://codianhub.in",
-    siteName: "CodianHub",
+    title: "Dite Academy | Learn Computer Skills & Grow Your Career",
+    description:
+      "Learn Basic Computer, Excel, DCA, ADCA, CCC, Typing, Coding, Digital Marketing, and more with Dite Academy. Build essential computer skills for your future success.",
+    url: "https://diteacademy.in",
+    siteName: "Dite Academy",
     images: [
       {
-        url: "https://codianhub.in/og-image.png",
+        url: "https://diteacademy.in/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CodianHub - Learn Coding",
+        alt: "Dite Academy - Learn Computer Skills",
       },
     ],
     locale: "en_IN",
@@ -28,9 +30,10 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "CodianHub | Learn Coding, Build Skills & Get Placed",
-    description: "Learn DSA, Full Stack, Python, Java, Cloud & AI/ML at CodianHub. Structured courses & practice sheets to build skills & crack MNC interviews.",
-    images: ["https://codianhub.in/og-image.png"],
+    title: "Dite Academy | Learn Computer Skills & Grow Your Career",
+    description:
+      "Start your computer learning journey with Dite Academy — Basic Computer, Excel, MS Office, Coding, Digital Marketing, and Graphic Designing made easy for everyone.",
+    images: ["https://diteacademy.in/og-image.png"],
   },
 };
 

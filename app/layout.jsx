@@ -1,38 +1,46 @@
-import '../styles/globals.css'
-import LayoutWrapper from '../components/layout/LayoutWrapper';
+import "../styles/globals.css";
+import LayoutWrapper from "../components/layout/LayoutWrapper";
 
 export const metadata = {
-  title: "CodianHub | Learn Coding, Build Skills & Get Placed",
-  description: "Master coding with CodianHub! Learn Data Structures & Algorithms, Full Stack Development, Data Science, AI/ML and Devops & Cloud. Crack MNC interviews and build your dream career.",
-  icons: {icon: "/favicon.svg"},
-  alternates: { canonical: "https://codianhub.in" },
+  title: "Dite Academy | Learn Computer Skills & Build Your Career",
+  description:
+    "Master computer skills with Dite Academy! Learn Basic Computer, MS Office, Excel, DCA, ADCA, CCC, Typing, Coding, Digital Marketing, and Graphic Designing. Build your skills and advance your career.",
+  icons: { icon: "/favicon.svg" },
+  alternates: { canonical: "https://diteacademy.in" },
 
   openGraph: {
-    title: "CodianHub | Learn Coding, Build Skills & Get Placed",
-    description: "Structured coding courses and DSA sheets for aspiring software engineers.",
-    url: "https://codianhub.in",
-    siteName: "CodianHub",
-    images: [{ url: "https://codianhub.in/og-image.png", width: 1200, height: 630, alt: "CodianHub OG Image" }],
+    title: "Dite Academy | Learn Computer Skills & Build Your Career",
+    description:
+      "Free and affordable computer courses including Basic Computer, Excel, MS Office, Digital Marketing, and Graphic Designing. Learn with Dite Academy — your step toward digital success.",
+    url: "https://diteacademy.in",
+    siteName: "Dite Academy",
+    images: [
+      {
+        url: "https://diteacademy.in/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Dite Academy OG Image",
+      },
+    ],
     locale: "en_IN",
     type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "CodianHub | Learn Coding, Build Skills & Get Placed",
-    description: "CodianHub | Learn DSA, Full Stack, Python, Java, Cloud & AI/ML with structured courses and practice sheets. Build skills & crack top MNC interviews.",
-    images: ["https://codianhub.in/og-image.png"],
+    title: "Dite Academy | Learn Computer Skills & Build Your Career",
+    description:
+      "Join Dite Academy to learn computer courses like Excel, MS Office, DCA, ADCA, CCC, Digital Marketing, and more. Start learning today and enhance your skills.",
+    images: ["https://diteacademy.in/og-image.png"],
   },
 };
 
 export default function RootLayout({ children }) {
-  return( 
-  <html lang="en">
-    <body>
-      <LayoutWrapper>
-        {children}
-      </LayoutWrapper>
-    </body>
-  </html>
-  )
+  return (
+    <html lang="en">
+      <body>
+        <LayoutWrapper>{children}</LayoutWrapper>
+      </body>
+    </html>
+  );
 }
