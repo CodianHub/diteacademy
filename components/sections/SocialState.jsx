@@ -1,5 +1,4 @@
 "use client"
-import '../../global.css'
 import { useState, useEffect } from 'react'
 
 function SocialState() {

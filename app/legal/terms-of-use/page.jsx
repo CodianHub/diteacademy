@@ -2,12 +2,12 @@ export const metadata = {
   title: "Terms of Use | Dite Academy",
   description:
     "Review Dite Academy’s Terms of Use to understand the rules and conditions for accessing our online and offline courses, study materials, and services.",
-  alternates: { canonical: "https://diteacademy.in/legal/terms-of-use" },
+  alternates: { canonical: "https://www.diteacademy.com/legal/terms-of-use" },
   openGraph: {
     title: "Terms of Use | Dite Academy",
     description:
       "Read Dite Academy’s Terms of Use to understand your rights and responsibilities while using our online and offline learning services.",
-    url: "https://diteacademy.in/legal/terms-of-use",
+    url: "https://www.diteacademy.com/legal/terms-of-use",
     siteName: "Dite Academy",
     type: "article",
   },
@@ -63,10 +63,9 @@ function TermsOfUse() {
         </li>
         <li>
           Report any unauthorized access immediately to{" "}
-          <a href="mailto:support@diteacademy.in" className="text-blue-600 underline">
-            support@diteacademy.in
-          </a>
-          .
+          <a href="mailto:support@diteacademy.com" className="text-blue-600 underline">
+            support@diteacademy.com
+          </a>.
         </li>
       </ul>
 
@@ -77,7 +76,7 @@ function TermsOfUse() {
         advance. Pricing is subject to change without notice. Refunds are
         governed by our{" "}
         <a
-          href="/legal/refund-policy"
+          href="https://www.diteacademy.com/legal/refund-policy"
           className="text-blue-600 underline"
         >
           Refund Policy
@@ -158,7 +157,7 @@ function TermsOfUse() {
       <p className="mb-4">
         These Terms of Use are governed by and construed under the laws of India.
         All disputes will be subject to the jurisdiction of the courts in{" "}
-        <strong>[Your City]</strong>.
+        <strong>New Delhi</strong>.
       </p>
 
       {/* Section 12 */}
@@ -173,10 +172,9 @@ function TermsOfUse() {
       <p className="mb-4">
         For any concerns or clarifications regarding these Terms, please contact
         us at{" "}
-        <a href="mailto:support@diteacademy.in" className="text-blue-600 underline">
-          support@diteacademy.in
-        </a>
-        .
+        <a href="mailto:support@diteacademy.com" className="text-blue-600 underline">
+          support@diteacademy.com
+        </a>.
       </p>
 
       <p className="text-sm text-gray-500 mt-8">

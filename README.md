@@ -2,7 +2,7 @@
 
 Welcome to **Dite Academy** — your one-stop institute for learning computer skills, coding, and digital education **for free and professionally**.
 
-Visit the live site 👉 [https://diteacademy.in](https://diteacademy.in)
+Visit the live site 👉 [https://www.diteacademy.com](https://www.diteacademy.com)
 
 ---
 
@@ -71,5 +71,5 @@ Follow **Dite Academy** and stay updated with the latest courses, tutorials, and
 
 ## 📝 License
 
-**Dite Academy** content is free for learning and personal development.
-All rights reserved © Dite Academy | [https://diteacademy.in](https://diteacademy.in)
+**Dite Academy** content is free for learning and personal development.  
+All rights reserved © Dite Academy | [https://www.diteacademy.com](https://www.diteacademy.com)

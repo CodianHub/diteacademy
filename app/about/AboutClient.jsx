@@ -66,7 +66,7 @@ function AboutClient() {
         <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-purple-600 mx-auto rounded-full mb-4"></div>
 
         <p className="text-lg text-gray-700 leading-relaxed">
-          Hi, I'm <span className="font-bold text-gray-900">Sandeep Kumar</span>, a{" "}
+          Hi, I'm <span className="font-bold text-gray-900">Sandeep Saini</span>, a{" "}
           <strong>Computer Educator & Digital Trainer</strong>. I founded{" "}
           <span className="font-semibold text-purple-600">Dite Academy</span> to
           help students and professionals learn essential computer and digital
@@ -84,21 +84,21 @@ function AboutClient() {
         {/* Social Links */}
         <div className="flex justify-center gap-6 mt-6">
           <Link
-            href="https://github.com/diteacademy"
+            href="https://www.github.com/diteacademy"
             target="_blank"
             className="p-3 bg-gray-100 hover:bg-gray-200 rounded-full shadow transition"
           >
             <Github size={22} className="text-gray-700" />
           </Link>
           <Link
-            href="https://linkedin.com/company/diteacademy"
+            href="https://www.linkedin.com/company/diteacademy"
             target="_blank"
             className="p-3 bg-gray-100 hover:bg-gray-200 rounded-full shadow transition"
           >
             <Linkedin size={22} className="text-blue-700" />
           </Link>
           <Link
-            href="https://twitter.com/diteacademy"
+            href="https://www.x.com/diteacademy"
             target="_blank"
             className="p-3 bg-gray-100 hover:bg-gray-200 rounded-full shadow transition"
           >

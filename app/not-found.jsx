@@ -8,13 +8,13 @@ export const metadata = {
     index: false, // ❌ Don’t let Google index the 404 page
     follow: true, // ✅ Allow following links
   },
-  alternates: { canonical: "https://diteacademy.in/404" },
+  alternates: { canonical: "https://www.diteacademy.com/404" },
 
   openGraph: {
     title: "Page Not Found | Dite Academy",
     description:
       "Oops! The page you’re trying to reach is not available. Head back to Dite Academy’s homepage and continue your learning journey.",
-    url: "https://diteacademy.in/404",
+    url: "https://www.diteacademy.com/404",
     siteName: "Dite Academy",
     type: "website",
   },

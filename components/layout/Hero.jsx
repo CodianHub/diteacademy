@@ -9,13 +9,13 @@ function Hero() {
     <div className="pt-30">
       {/* Top Tagline */}
       <div className="text-center pb-10 md:pt-6">
-        <p className="a:text-sm b:text-3xl sm:text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl font-extrabold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
+        <p className="a:text-sm b:text-3xl sm:text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl font-extrabold text-blue-900">
           Learn·Grow·Succeed
         </p>
         <div className="flex items-center justify-center pt-4 gap-1">
-          <div className="w-1/8 h-0.5 bg-gradient-to-r from-red-100 via-red-400 to-red-700" />
-          <div className="border-4 border-red-700 rounded-full" />
-          <div className="w-1/8 h-0.5 bg-gradient-to-r from-red-700 via-red-400 to-red-100" />
+          <div className="w-1/8 h-0.5 bg-gradient-to-r from-blue-100 via-blue-600 to-blue-950" />
+          <div className="border-4 border-blue-800 rounded-full" />
+          <div className="w-1/8 h-0.5 bg-gradient-to-r from-blue-950 via-blue-600 to-blue-100" />
         </div>
       </div>
 
@@ -32,7 +32,7 @@ function Hero() {
               Dite Academy
             </h1>
             <p className="text-sm sm:text-xl md:text-2xl lg:text-3xl text-gray-700">
-              Empowering digital education and computer skills
+              Empowering computer skills with us
             </p>
             <p className="text-sm sm:text-xl md:text-2xl lg:text-3xl pb-10 text-gray-700">
               to build a brighter future.
@@ -44,14 +44,14 @@ function Hero() {
             {/* YouTube */}
             <div className="flex hover:border-2 border-orange-400 justify-center items-center transition-all duration-200 hover:text-red-600 w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] rounded-full bg-gray-300">
               <a
-                href="https://youtube.com/@diteacademy"
+                href="https://www.youtube.com/@diteacademy"
                 target="_blank"
                 className="text-2xl sm:text-3xl"
               >
                 <FaYoutube />
               </a>
             </div>
-            {/* Twitter */}
+            {/* Twitter (X) */}
             <div className="flex hover:border-2 border-orange-400 justify-center items-center transition-all duration-200 hover:text-blue-500 w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] rounded-full bg-gray-300">
               <a
                 href="https://x.com/diteacademy"
@@ -64,7 +64,7 @@ function Hero() {
             {/* Instagram */}
             <div className="flex hover:border-2 border-orange-400 justify-center items-center transition-all duration-200 hover:text-[#f13d67] w-[40px] h-[40px] sm:w-[50px] sm:h-[50px] rounded-full bg-gray-300">
               <a
-                href="https://instagram.com/diteacademy"
+                href="https://www.instagram.com/diteacademy"
                 target="_blank"
                 className="text-2xl sm:text-3xl"
               >
@@ -94,7 +94,7 @@ function Hero() {
           className="absolute max-md:relative max-md:bottom-5 max-md:text-center right-0 -bottom-0 md:max-w-1/2"
           src="/images/heroImg.png"
           alt="Dite Academy - Hero image"
-          width={600}
+          width={500}
           height={500}
           priority
         />

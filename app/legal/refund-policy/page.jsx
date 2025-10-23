@@ -2,12 +2,12 @@ export const metadata = {
   title: "Refund Policy | Dite Academy",
   description:
     "Review Dite Academy’s Refund Policy for both online and offline courses. Learn about eligibility, refund timelines, and conditions for course cancellations.",
-  alternates: { canonical: "https://diteacademy.in/legal/refund-policy" },
+  alternates: { canonical: "https://www.diteacademy.com/legal/refund-policy" },
   openGraph: {
     title: "Refund Policy | Dite Academy",
     description:
       "Understand Dite Academy’s refund and cancellation policy for classroom and online courses. Learn about refund eligibility and processing timelines.",
-    url: "https://diteacademy.in/legal/refund-policy",
+    url: "https://www.diteacademy.com/legal/refund-policy",
     siteName: "Dite Academy",
     type: "article",
   },
@@ -86,8 +86,8 @@ function RefundPolicy() {
       <p className="text-xl font-semibold mt-6 mb-3">5. How to Request a Refund</p>
       <p className="mb-4">
         To request a refund, please email us at{" "}
-        <a href="mailto:support@diteacademy.in" className="text-blue-600 underline">
-          support@diteacademy.in
+        <a href="mailto:support@diteacademy.com" className="text-blue-600 underline">
+          support@diteacademy.com
         </a>{" "}
         with your full name, course name, payment receipt, and reason for
         refund. Our support team will respond within 2–3 working days.

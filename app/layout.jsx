@@ -2,21 +2,21 @@ import "../styles/globals.css";
 import LayoutWrapper from "../components/layout/LayoutWrapper";
 
 export const metadata = {
-  title: "Dite Academy | Learn Computer Skills & Build Your Career",
+  title: "Dite Academy | Learn Computer Skills in Delhi",
   description:
-    "Master computer skills with Dite Academy! Learn Basic Computer, MS Office, Excel, DCA, ADCA, CCC, Typing, Coding, Digital Marketing, and Graphic Designing. Build your skills and advance your career.",
+    "Join Dite Academy to master computer skills with 100% Job Assurance — Basic Computer, Advanced Excel, MS Office, and Typing to Coding, DCA, ADCA, CCC, Digital Marketing, Graphic Designing and Web Development.",
   icons: { icon: "/favicon.svg" },
-  alternates: { canonical: "https://diteacademy.in" },
+  alternates: { canonical: "https://www.diteacademy.com" },
 
   openGraph: {
-    title: "Dite Academy | Learn Computer Skills & Build Your Career",
+    title: "Dite Academy | Learn Computer Skills in Delhi",
     description:
-      "Free and affordable computer courses including Basic Computer, Excel, MS Office, Digital Marketing, and Graphic Designing. Learn with Dite Academy — your step toward digital success.",
-    url: "https://diteacademy.in",
+      "Join Dite Academy to master computer skills with 100% Job Assurance — Basic Computer, Advanced Excel, MS Office, and Typing to Coding, DCA, ADCA, CCC, Digital Marketing, Graphic Designing and Web Development.",
+    url: "https://www.diteacademy.com",
     siteName: "Dite Academy",
     images: [
       {
-        url: "https://diteacademy.in/og-image.png",
+        url: "https://www.diteacademy.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "Dite Academy OG Image",
@@ -28,10 +28,10 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Dite Academy | Learn Computer Skills & Build Your Career",
+    title: "Dite Academy | Learn Computer Skills in Delhi",
     description:
-      "Join Dite Academy to learn computer courses like Excel, MS Office, DCA, ADCA, CCC, Digital Marketing, and more. Start learning today and enhance your skills.",
-    images: ["https://diteacademy.in/og-image.png"],
+      "Join Dite Academy to master computer skills with 100% Job Assurance — Basic Computer, Advanced Excel, MS Office, and Typing to Coding, DCA, ADCA, CCC, Digital Marketing, Graphic Designing and Web Development.",
+    images: ["https://www.diteacademy.com/og-image.png"],
   },
 };
 

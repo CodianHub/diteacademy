@@ -26,13 +26,13 @@ function Footer() {
             <div className="flex flex-col cursor-pointer gap-2 items-center scroll-smooth md:flex-row">
               <Image
                 loading="lazy"
-                className="md:h-13 md:w-13"
+                className="max-md:h-13 max-md:w-13"
                 src="/images/logo.png"
                 alt="Dite Academy logo"
-                height={80}
-                width={80}
+                height={70}
+                width={70}
               />
-              <h1 className="text-4xl max-b:hidden md:text-4xl font-bold bg-gradient-to-r from-blue-800 via-purple-600 to-pink-500 bg-clip-text text-transparent py-1">
+              <h1 className="text-4xl text-blue-900 max-b:hidden md:text-4xl font-bold py-1">
                 Dite Academy
               </h1>
             </div>
@@ -60,7 +60,7 @@ function Footer() {
               href="/tutorials"
               className="cursor-pointer hover:text-blue-600 hover:underline transition-all duration-100"
             >
-              Tutorials
+              Our Free Tutorials
             </Link>
             <Link
               href="/dsa-sheet"
@@ -120,7 +120,7 @@ function Footer() {
                 href="mailto:diteacademyofficial@gmail.com"
                 className="hover:underline hover:text-blue-600"
               >
-                support@diteacademy.in
+                support@diteacademy.com
               </a>
             </li>
             <li className="flex flex-wrap justify-center gap-3 items-center mt-1 md:justify-start">
@@ -152,21 +152,7 @@ function Footer() {
         {/* copyright text */}
         <div className="px-2 w-full text-center flex flex-col items-center">
           © 2025 Dite Academy. All rights reserved.
-          <div className="flex w-full items-center justify-center relative top-5 gap-1">
-            <div className="w-1/8 h-0.5 bg-gradient-to-r from-red-50 via-red-300 to-red-500"></div>
-            <div className="border-4 border-red-500 rounded-full"></div>
-            <div className="w-1/8 h-0.5 bg-gradient-to-r from-red-500 via-red-300 to-red-50"></div>
-          </div>
         </div>
-
-        {/* footer bottom Title */}
-        <h1
-          className="opacity-20 max-b:hidden select-none text-center text-5xl sm:text-8xl md:text-9xl
-                font-bold bg-gradient-to-r from-blue-800 via-purple-600 to-pink-500 
-                bg-clip-text text-transparent"
-        >
-          Dite Academy
-        </h1>
       </div>
     </div>
   );

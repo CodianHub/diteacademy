@@ -9,7 +9,7 @@ function NavDrop() {
         <ul className='flex flex-col items-start gap-5 py-2'>
 
           {/* Courses */}
-          <li className='hover:text-gray-600 text-gray-950 flex flex-col justify-center px-4 h-[80px] w-full'>
+          <li className='hover:text-gray-600 text-blue-950 flex flex-col justify-center px-4 h-[80px] w-full'>
             <Link href="/courses" className='flex flex-col'>
               <h2 className='text-xl font-semibold'>Courses</h2>
               <p className='text-sm text-slate-700'>
@@ -19,7 +19,7 @@ function NavDrop() {
           </li>
 
           {/* Tutorials */}
-          <li className='hover:text-gray-600 text-gray-950 flex flex-col justify-center px-4 h-[80px] w-full'>
+          <li className='hover:text-gray-600 text-blue-950 flex flex-col justify-center px-4 h-[80px] w-full'>
             <Link href="/tutorials" className='flex flex-col'>
               <h2 className='text-xl font-semibold'>Tutorials</h2>
               <p className='text-sm text-slate-700'>
@@ -28,8 +28,8 @@ function NavDrop() {
             </Link>
           </li>
 
-          {/* DSA Sheet / Online Tests */}
-          <li className='hover:text-gray-600 text-gray-950 flex flex-col justify-center px-4 h-[80px] w-full'>
+          {/* Online Tests */}
+          <li className='hover:text-gray-600 text-blue-950 flex flex-col justify-center px-4 h-[80px] w-full'>
             <Link href="/online-tests" className='flex flex-col'>
               <h2 className='text-xl font-semibold'>Online Tests</h2>
               <p className='text-sm text-slate-700'>
@@ -38,8 +38,8 @@ function NavDrop() {
             </Link>
           </li>
 
-          {/* Core Subjects / Academic Courses */}
-          <li className='hover:text-gray-600 text-gray-950 flex flex-col justify-center px-4 h-[80px] w-full'>
+          {/*Academic Courses */}
+          <li className='hover:text-gray-600 text-blue-950 flex flex-col justify-center px-4 h-[80px] w-full'>
             <Link href="/academic-subjects" className='flex flex-col'>
               <h2 className='text-xl font-semibold'>Academic Subjects</h2>
               <p className='text-sm text-slate-700'>

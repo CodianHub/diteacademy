@@ -2,12 +2,12 @@ export const metadata = {
   title: "Privacy Policy | Dite Academy",
   description:
     "Read Dite Academy’s Privacy Policy to understand how we collect, use, and protect your personal information while you learn at our online or offline centers.",
-  alternates: { canonical: "https://diteacademy.in/legal/privacy-policy" },
+  alternates: { canonical: "https://www.diteacademy.com/legal/privacy-policy" },
   openGraph: {
     title: "Privacy Policy | Dite Academy",
     description:
       "Learn how Dite Academy responsibly manages and protects student data across online and offline courses.",
-    url: "https://diteacademy.in/legal/privacy-policy",
+    url: "https://www.diteacademy.com/legal/privacy-policy",
     siteName: "Dite Academy",
     type: "article",
   },
@@ -141,7 +141,7 @@ function PrivacyPolicy() {
         us:
       </p>
       <p className="mb-4">
-        📧 <strong>Email:</strong> support@diteacademy.in
+        📧 <strong>Email:</strong> support@diteacademy.com
       </p>
       <p>
         🏫 <strong>Address:</strong> Dite Academy – Computer Training Institute,

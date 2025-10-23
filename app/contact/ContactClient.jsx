@@ -141,9 +141,7 @@ const ContactClient = () => {
 
           {/* Right side contact info */}
           <div className="flex flex-col items-center lg:items-start bg-orange-500 w-full lg:w-4/7 h-100 lg:h-full justify-between text-gray-100">
-            <p className="text-2xl font-bold pt-5 pl-7">
-              Contact Information
-            </p>
+            <p className="text-2xl font-bold pt-5 pl-7">Contact Information</p>
 
             <div className="flex flex-col gap-4 justify-center items-center w-full">
               <RiMessage2Fill className="text-3xl" />
@@ -151,7 +149,7 @@ const ContactClient = () => {
                 href="mailto:diteacademyofficial@gmail.com"
                 className="font-semibold hover:underline"
               >
-                support@diteacademy.in
+                support@diteacademy.com
               </a>
             </div>
 
@@ -164,12 +162,6 @@ const ContactClient = () => {
                 target="_blank"
               >
                 <FaLinkedin className="cursor-pointer hover:scale-120 transition-all duration-200" />
-              </a>
-              <a href="https://t.me/diteacademy" target="_blank">
-                <ImTelegram className="cursor-pointer hover:scale-120 transition-all duration-200" />
-              </a>
-              <a href="https://discord.gg/diteacademy" target="_blank">
-                <FaDiscord className="cursor-pointer hover:scale-120 transition-all duration-200" />
               </a>
             </div>
           </div>
