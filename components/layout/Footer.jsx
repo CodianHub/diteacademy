@@ -23,22 +23,19 @@ function Footer() {
         >
           {/* // left side name & logo */}
           <Link href="/" className="flex flex-col gap-3 justify-center">
-            <div className="flex flex-col cursor-pointer gap-2 items-center scroll-smooth md:flex-row">
-              <Image
-                loading="lazy"
-                className="max-md:h-13 max-md:w-13"
-                src="/images/logo.png"
-                alt="Dite Academy logo"
-                height={70}
-                width={70}
-              />
-              <h1 className="text-4xl text-blue-900 max-b:hidden md:text-4xl font-bold py-1">
-                Dite Academy
-              </h1>
-            </div>
-            <h2 className="text-sm text-center">
-              💻 Dite Academy | Digital Institute of Technical Education
-            </h2>
+            {/* <div className="flex flex-col cursor-pointer gap-2 items-center scroll-smooth md:flex-row"> */}
+              <div className="flex flex-col items-start gap-[1px] text-[#043056]">
+                  {/* <h1 className="text-3xl font-bold">Dite Academy</h1> */}
+                  <Image
+                    src="/logo.png"
+                    width={250}
+                    height={250}
+                    alt="logo of dite academy"
+                    loading="lazy"
+                    />
+                  <p className="text-xs text-[#0690D1] relative -top-5 -right-[17px]">Digital Institute of Technical Education</p>
+              </div>
+            {/* </div> */}
           </Link>
 
           {/* quick links */}

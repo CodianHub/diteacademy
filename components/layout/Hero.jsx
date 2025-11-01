@@ -9,7 +9,7 @@ function Hero() {
     <div className="pt-30">
       {/* Top Tagline */}
       <div className="text-center pb-10 md:pt-6">
-        <p className="a:text-sm b:text-3xl sm:text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl font-extrabold text-blue-900">
+        <p className="a:text-sm b:text-3xl sm:text-6xl md:text-7xl lg:text-8xl 2xl:text-9xl font-extrabold text-[#265deb]">
           Learn·Grow·Succeed
         </p>
         <div className="flex items-center justify-center pt-4 gap-1">

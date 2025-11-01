@@ -5,7 +5,7 @@ export const metadata = {
   title: "Dite Academy | Learn Computer Skills in Delhi",
   description:
     "Join Dite Academy to master computer skills with 100% Job Assurance — Basic Computer, Advanced Excel, MS Office, and Typing to Coding, DCA, ADCA, CCC, Digital Marketing, Graphic Designing and Web Development.",
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: "/favicon.png" },
   alternates: { canonical: "https://www.diteacademy.com" },
 
   openGraph: {

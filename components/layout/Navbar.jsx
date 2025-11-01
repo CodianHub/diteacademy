@@ -26,15 +26,12 @@ const Navbar = () => {
           {/* Logo & Name */}
           <Link href="/" className="flex items-center gap-1">
             <Image
-              src="/images/logo.png"
-              width={70}
-              height={70}
-              alt="Dite Academy Logo"
-              loading="lazy"
-            />
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-800 via-purple-600 to-pink-500 bg-clip-text text-transparent">
-              Dite Academy
-            </h1>
+                src="/logo.png"
+                width={250}
+                height={250}
+                alt="logo of dite academy"
+                loading="lazy"
+              />
           </Link>
 
           {/* Mobile Menu Icon */}
@@ -64,16 +61,16 @@ const Navbar = () => {
             {/* Logo */}
             <li>
               <Link href="/" className="flex items-center gap-2">
-                <Image
-                  src="/images/logo.png"
-                  width={70}
-                  height={70}
-                  alt="Dite Academy Logo"
-                  loading="lazy"
-                />
-                <div className="flex flex-col items-start gap-[1px] text-blue-950">
-                    <h1 className="text-3xl font-bold">Dite Academy</h1>
-                    <p className="text-xs">Digital Institute of Technical Education</p>
+                <div className="flex flex-col items-start gap-[1px] text-[#043056]">
+                  {/* <h1 className="text-3xl font-bold">Dite Academy</h1> */}
+                  <Image
+                    src="/logo.png"
+                    width={250}
+                    height={250}
+                    alt="logo of dite academy"
+                    loading="lazy"
+                    />
+                  <p className="text-xs text-[#0690D1] relative -top-5 -right-[17px]">Digital Institute of Technical Education</p>
                 </div>
               </Link>
             </li>
